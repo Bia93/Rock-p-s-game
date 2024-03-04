@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(90, 207, 90);
+  padding: 2em;
+}
+
+.score-board {
+  border: 3px solid black;
+  width: 200px;
+  margin: 20px auto;
+  font-size: 2rem;
+  border-radius: 2px;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+}
+.score-board .badge {
+  background-color: red;
+  font-size: 2rem;
+  border-radius: 4px;
+}
+.score-board #user-label {
+  position: absolute;
+  top: 17px;
+  left: -37px;
+}
+.score-board #comp-label {
+  position: absolute;
+  top: 17px;
+  left: 158px;
+}
+
+.result {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 1em;
+}
+
+.choices {
+  text-align: center;
+  margin: 2em 0;
+}
+.choices .choice {
+  font-size: 4rem;
+  display: inline-block;
+  border-radius: 50%;
+  border: 3px solid black;
+  padding: 20px;
+  border-radius: 50%;
+  margin: 0 15px;
+  background-color: azure;
+}
+.choices .choice :hover {
+  cursor: pointer;
+}
+
+#action-message {
+  text-align: center;
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */
